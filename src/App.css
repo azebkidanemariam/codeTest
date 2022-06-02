@@ -1,0 +1,75 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #cee9f5;
+  padding: 0;
+  margin: 0;
+  /* background-color: var(--color7); */
+}
+
+h4 {
+  font-size: 1.2rem;
+  letter-spacing: 0.3%;
+  font-family: 'Lucida Sans';
+  text-align: center;
+  color: #CFD8DC;
+}
+.wrapper {
+  margin-right: auto; /* 1 */
+  margin-left: auto; /* 1 */
+margin-top: 100px;
+  max-width: 960px; /* 2 */
+
+  padding-right: 10px; /* 3 */
+  padding-left: 10px; /* 3 */
+}
+
+.list-container {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 10px;
+  row-gap: 10px;
+  padding: 16px;
+  max-width: 1200px;
+}
+
+.member-card {
+  box-shadow: 0px 1px 8px 1px rgba(32, 32, 32, 0.12);
+  background-color: #546E7A;
+}
+.img {
+  align-self: center;
+  width: 100%;
+  padding: 10px;
+  align-items: center;
+}
+
+.dropdown {
+  height: 3rem;
+  width: 200px;
+  margin: 10;
+  border-style: none;
+  border-radius: 100px;
+  color: var(--color-dark);
+  font-size: 1rem;
+}
+
+h1 {
+
+  padding: 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  align-items: center;
+  display: flex;
+  margin-top: 20;
+  text-align: center;
+  color:#5c8e81
+}
